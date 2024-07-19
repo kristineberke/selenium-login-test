@@ -6,9 +6,11 @@ Objective: Verify that a user can log in with valid credentials.
 ### Test Steps:
 | Step | Test Step                    | Expected Result               | Test Data                  |
 |------|------------------------------|-------------------------------|----------------------------|
-| 1    | User enters correct username and password | User should be able to type the username and password successfully      | Username: "standard_user"   Password: "secret_sauce" |
-| 2   | User click on "Login" button | User is logged into portal successfully |                  |
-| 3   | Browser is closed            |                               |                            |
+| 1   | Browser is launched           | Browser is opened             |                            |
+| 2   | Open the login page           | The login paged is opened in the browser | https://www.saucedemo.com/v1/ |
+| 2    | User enters correct username and password | User should be able to type the username and password successfully      | Username: "standard_user"   Password: "secret_sauce" |
+| 3   | User click on "Login" button | User is logged into portal successfully |                  |
+| 4   | Browser is closed            |                               |                            |
 
 
 ## Prerequisites
