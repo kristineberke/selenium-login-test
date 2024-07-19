@@ -7,7 +7,7 @@ Objective: Verify that a user can log in with valid credentials.
 | Step | Test Step                    | Expected Result               | Test Data                  |
 |------|------------------------------|-------------------------------|----------------------------|
 | 1    | User enters correct username | Login page is displayed       | Username: "standard_user"  |
-|      | and password                 |                               | Password: "secret_sauce"   |
+|        and password                                                   Password: "secret_sauce"   |
 | 2    | Enter valid username         | Username is entered            | ✅ Pass  |
 | 3    | Enter valid password         | Password is entered            | ✅ Pass  |
 | 4    | Click on the login button    | User is redirected to dashboard | ✅ Pass  |
