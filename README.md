@@ -8,8 +8,8 @@ Objective: Verify that a user can log in with valid credentials.
 |------|------------------------------|-------------------------------|----------------------------|
 | 1    | User enters correct username and password | User should be able to type the username and password successfully      | Username: "standard_user"   Password: "secret_sauce" |
 | 2   | User click on "Login" button | User is logged into portal successfully |                   |
-|------|------------------------------|-------------------------------|----------------------------|
 | Post Condition                                                                                   |
+|------|------------------------------|-------------------------------|----------------------------|
 | 1    | Browser is closed            |                               |                            |
 
 
